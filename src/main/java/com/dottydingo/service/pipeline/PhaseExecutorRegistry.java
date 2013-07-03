@@ -1,4 +1,4 @@
-package com.dottydingo.pipeline;
+package com.dottydingo.service.pipeline;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -24,5 +24,10 @@ public class PhaseExecutorRegistry<C>
                     String.format("No phaseExecutor registered under name %s",name));
 
         return router;
+    }
+
+    public void setPhaseExecutorMap(Map<String, PhaseExecutor<C>> phaseExecutorMap)
+    {
+        this.phaseExecutorMap.putAll(phaseExecutorMap);
     }
 }

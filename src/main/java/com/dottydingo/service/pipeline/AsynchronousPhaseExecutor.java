@@ -1,4 +1,4 @@
-package com.dottydingo.pipeline;
+package com.dottydingo.service.pipeline;
 
 import java.util.concurrent.Executor;
 

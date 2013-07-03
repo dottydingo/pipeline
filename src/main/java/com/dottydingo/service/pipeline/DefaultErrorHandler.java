@@ -1,4 +1,4 @@
-package com.dottydingo.pipeline;
+package com.dottydingo.service.pipeline;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

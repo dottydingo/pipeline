@@ -10,7 +10,7 @@
         <version>7</version>
     </parent>
 
-    <groupId>com.dottydingo.pipeline</groupId>
+    <groupId>com.dottydingo.service.pipeline</groupId>
     <artifactId>pipeline</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
