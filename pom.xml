@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>com.dottydingo.service.pipeline</groupId>
-    <artifactId>pipeline</artifactId>
+    <artifactId>service-pipeline</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <licenses>
