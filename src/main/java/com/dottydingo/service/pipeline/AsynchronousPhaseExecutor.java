@@ -6,8 +6,8 @@ import java.util.concurrent.Executor;
  */
 public class AsynchronousPhaseExecutor<C> extends SynchronousPhaseExecutor<C> implements ContextRunnable<C>
 {
-    private PhaseRunnableFactory<C> phaseRunnableFactory = new DefaultPhaseRunnableFactory<C>();
-    private Executor executor;
+    protected PhaseRunnableFactory<C> phaseRunnableFactory = new DefaultPhaseRunnableFactory<C>();
+    protected Executor executor;
 
     public void setPhaseRunnableFactory(PhaseRunnableFactory<C> phaseRunnableFactory)
     {
