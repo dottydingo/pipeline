@@ -21,8 +21,8 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:mhellkamp/pipeline.git</connection>
-        <developerConnection>scm:git:git@github.com:mhellkamp/pipeline.git</developerConnection>
+        <connection>scm:git:git@github.com:dottydingo/pipeline.git</connection>
+        <developerConnection>scm:git:git@github.com:dottydingo/pipeline.git</developerConnection>
         <url>http://mhellkamp.github.com/pipeline/</url>
     </scm>
 
